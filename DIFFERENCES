@@ -1,0 +1,14 @@
+# Known Differences
+
+Vanilla Sprites+ only changes how the games' own front sprites look. It does
+not change any game logic, stats, items, maps, text or save data.
+
+- **Trapped white made see-through.** In 46 Red/Blue, 87 Yellow, 116 Gold and
+  122 Silver front sprites, white that is background trapped inside the
+  drawing is see-through instead of solid white. Nothing else in the sprites
+  changes, apart from one pixel on Red/Blue Squirtle kept white so its own
+  white is not cut away. On a plain white battle screen this looks the same as
+  before; it shows on any other background.
+- **3D battle colours.** Only inside potato_voxel's 3D battles, a Pokémon
+  sprite that would otherwise stay grey follows your COLORS palette.
+- Disabling the mod restores the original sprites.
