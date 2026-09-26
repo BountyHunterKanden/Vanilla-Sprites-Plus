@@ -1,0 +1,22 @@
+{
+  "id": "vanilla_sprites_plus",
+  "name": "Vanilla Sprites+",
+  "version": "1.0.0",
+  "entry": "main.lua",
+  "api": 2,
+  "games": [
+    "gen1",
+    "gen2"
+  ],
+  "game_version": ">=0.1.83",
+  "assets_transforms": "transforms.lua",
+  "profile": "content",
+  "category": "VISUAL",
+  "priority": 50,
+  "affects_link": false,
+  "github": "BountyHunterKanden/Vanilla-Sprites-Plus",
+  "permissions": [
+    "engine_internals"
+  ],
+  "description": "Cleans up the games' own Pokémon front sprites. White that is really background trapped inside a sprite (the loop of Articuno's tail, the gap between Mewtwo's arm and body) becomes see-through, on Red/Blue, Yellow, Gold and Silver. In potato_voxel's 3D battles the Pokémon follow the palette you picked instead of staying grey. Built from your own game files at install; no sprite art ships with the mod."
+}
